@@ -25,7 +25,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.1.2</version>
                 <configuration>
-                    <test>org.example.ClanderMemesTest</test>
+                    <test>org.example.KalanderMemesTest</test>
                 </configuration>
             </plugin>
         </plugins>
