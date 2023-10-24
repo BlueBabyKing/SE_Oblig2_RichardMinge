@@ -1,4 +1,4 @@
-# SE_Oblig2_RichardMinge
+# SE_Oblig3
 oblig 3
 "KJEMPE BRA"
 
