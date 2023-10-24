@@ -4,7 +4,8 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class CalenderMemesTest {
+public class LeapTests {
+
 
     @Test
     void testY2000IsTrue(){
@@ -32,3 +33,4 @@ class CalenderMemesTest {
         assertFalse(dicks.isLeapYear(2100)); //F
     }
 }
+
