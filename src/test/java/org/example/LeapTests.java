@@ -8,27 +8,27 @@ public class LeapTests {
 
 
     @Test
-    void testY2000IsLeapYearIsTrue(){
+    void testIfYear2000IsLeapYearEqualsTrue(){
         var CalenderTester = new CalenderMemes();
         assertTrue(CalenderTester.isLeapYear(2000)); //T
     }
     @Test
-    void testY2004IsLeapYearIsTrue(){
+    void testIfYear2004IsLeapYearEqualsTrue(){
         var ClenderTester = new CalenderMemes();
         assertTrue(ClenderTester.isLeapYear(2004)); //T
     }
     @Test
-    void testY2008IsLeapYearIsTrue(){
+    void testIfYear2008IsLeapYearEqualsTrue(){
         var CalenderTester = new CalenderMemes();
         assertTrue(CalenderTester.isLeapYear(2008)); //T
     }
     @Test
-    void testY1900UIsLeapYearIsFalse(){
+    void testIfYear1900UIsLeapYearEqualsFalse(){
         var C = new CalenderMemes();
         assertFalse(C.isLeapYear(1900)); //F
     }
     @Test
-    void testY2100IsLeapYearIsFalse(){
+    void testIfYear2100IsLeapYearEqualsFalse(){
         var dicks = new CalenderMemes();
         assertFalse(dicks.isLeapYear(2100)); //F
     }
